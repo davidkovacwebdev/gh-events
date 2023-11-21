@@ -1,5 +1,9 @@
 name: Events Demo 1
-on: ...
+on:
+  pull_request:
+    types: 
+      - opened
+  workflow_dispatch: #Sa ovim formatiom, ako ima vise triggera pise se sa : bez obzira sto nema dodatnih akcija ko pull
 jobs:
   deploy:
     runs-on: ubuntu-latest
