@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import MainContent from './MainContent';
 
 // Test comment main master
-// Yet another comment which I used to try skiping a workflow
+// Yet another comment which I used tos try skiping a workflow
 
 describe('MainContent', () => {
   it('should render a button', () => {
