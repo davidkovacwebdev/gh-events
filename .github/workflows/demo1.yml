@@ -4,13 +4,13 @@ on:
     types:
       - opened
     branches:
-      - main
+      - master
       - "dev-*" 
       - "feat/**"
   workflow_dispatch: #Sa ovim formatiom, ako ima vise triggera pise se sa : bez obzira sto nema dodatnih akcija ko pull
   push:
     branches:
-      - main
+      - master
       - "dev-*" #sve koje pocinju sa 'dev-'
       - "feat/**" #sve sto pocinje sa 'feat/' ** allows further slashes * any other than slashes
     paths-ignore:
